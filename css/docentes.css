@@ -17,13 +17,12 @@
 :root {
   --main-color: rgb(0, 137, 48);
   --second-color: rgb(0, 76, 50);
-  --third-color: #99ffbd;
+  --third-color: rgb(153, 255, 189);
   --contrast-color: #e10800;
-  --border-image: black;
 }
 
 .prof_box {
-  width: 1000px;
+  width: 1200px;
   height: 1fr;
   margin: auto;
   display: flex;
@@ -42,7 +41,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 2px solid var(--border-image);
+  border: 2px solid var(--second-color);
 }
 .nomes {
   text-align: left;
@@ -62,7 +61,7 @@ p .curriculo {
   display: block;
   text-align: center;
   font-size: 20px;
-  background-color: var(--contrast-color);
+  background-color: var(--second-color);
   width: 100px;
   margin: 15px auto;
   border-radius: 10px;
