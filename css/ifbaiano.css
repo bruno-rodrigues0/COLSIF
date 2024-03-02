@@ -6,8 +6,8 @@ section{
     display: flex;
     flex-direction: column;
     width: 60%;
-    height:83vh;
-    margin: auto;   ;
+    height:auto;
+    margin: auto;
 }
 
 .titulo{
@@ -24,4 +24,10 @@ section{
 .para-if{
     padding: 30px 0 0 0;
     text-align: justify;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
