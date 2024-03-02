@@ -1,0 +1,27 @@
+section{
+    height: auto;
+}
+
+.center-cont{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height:83vh;
+    margin: auto;   ;
+}
+
+.titulo{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.ifbaiano{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.para-if{
+    padding: 30px 0 0 0;
+    text-align: justify;
+}
