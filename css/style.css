@@ -1,6 +1,7 @@
 :root {
   --main-color: rgb(0, 137, 48);
   --second-color: rgb(0, 76, 50);
+  --contrast-color:rgb(225, 8, 0);
 }
 
 * {
