@@ -1,0 +1,88 @@
+@import url(https://db.onlinewebfonts.com/c/839140740c11b7220b35c8497585ab26?family=System+Font+Regular);
+@font-face {
+  font-family: "System Font Regular";
+  src: url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.eot");
+  src: url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.svg#System Font Regular")
+      format("svg");
+}
+
+:root {
+  --border-image: black;
+  --links: #e10800;
+}
+
+.prof_box {
+  width: 1000px;
+  height: 1fr;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.professores {
+  height: 1fr;
+  width: 304px;
+  margin-top: 50px;
+  padding: 15px;
+  background-color: wheat;
+  border-radius: 10px;
+}
+.professores img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid var(--border-image);
+}
+.nomes {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "System Font Regular";
+  margin: 10px 0 10px 0;
+}
+.email {
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p .curriculo {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--links);
+  width: 100px;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-family: "System Font Regular";
+}
+.curriculo:hover {
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px black;
+  text-decoration: none;
+}
+
+a {
+  font-size: 20px;
+  font-family: "System Font Regular";
+  text-indent: 0.2em;
+}
+a:hover {
+  color: var(--links);
+  font-size: 20px;
+  font-family: "System Font Regular";
+  text-decoration: underline;
+}
