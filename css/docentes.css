@@ -21,6 +21,13 @@
   --contrast-color: #e10800;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "System Font Regular";
+  font-size: 3em;
+}
+
 .prof_box {
   width: 1200px;
   height: 1fr;
