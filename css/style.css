@@ -224,3 +224,7 @@ footer p {
   margin: auto;
   padding: 5px 0;
 }
+
+.barra-inferior {
+  height: 50px;
+  background-color: #00420C;
