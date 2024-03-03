@@ -209,3 +209,18 @@ section {
     transform: translateZ(0);
   }
 }
+
+
+footer {
+  height: 1fr;
+  background-color: var(--main-color);
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+}
+
+footer p {
+  width: 500px;
+  margin: auto;
+  padding: 5px 0;
+}
