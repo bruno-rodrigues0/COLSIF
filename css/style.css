@@ -1,7 +1,7 @@
 :root {
   --main-color: rgb(0, 137, 48);
   --second-color: rgb(0, 76, 50);
-  --contrast-color:rgb(225, 8, 0);
+  --contrast-color: rgb(225, 8, 0);
 }
 
 * {
@@ -13,17 +13,16 @@
   box-sizing: inherit;
 }
 
-html{
+html {
   overflow: scroll;
   overflow-x: hidden;
-
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   display: none;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: aqua;
 }
@@ -173,25 +172,39 @@ section {
   background-color: #dddddd;
 }
 
-.dropdown_menu-1 .dropdown_item-1{
+.dropdown_menu-1 .dropdown_item-1 {
   transform-origin: top center;
   animation: rotateZ 200ms 30ms ease-in-out forwards;
 }
-.dropdown_menu-1 .dropdown_item-2{
+.dropdown_menu-1 .dropdown_item-2 {
   transform-origin: top center;
   animation: rotateZ 200ms 60ms ease-in-out forwards;
 }
-.dropdown_menu-1 .dropdown_item-3{
+.dropdown_menu-1 .dropdown_item-3 {
   transform-origin: top center;
   animation: rotateZ 200ms 90ms ease-in-out forwards;
 }
-.dropdown_menu-1 .dropdown_item-4{
+.dropdown_menu-1 .dropdown_item-4 {
   transform-origin: top center;
   animation: rotateZ 200ms 120ms ease-in-out forwards;
 }
 .dropdown_menu-1 .dropdown_item-5 {
   transform-origin: top center;
   animation: rotateZ 200ms 150ms ease-in-out forwards;
+}
+
+/* footer */
+
+footer {
+  height: 1fr;
+  background-color: var(--main-color);
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  width: 500px;
+  margin: auto;
+  padding: 5px 0;
 }
 
 @keyframes rotateZ {
