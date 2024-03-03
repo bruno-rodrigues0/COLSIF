@@ -209,3 +209,32 @@ section {
     transform: translateZ(0);
   }
 }
+/*---------------------- INICIO: RODAPE ----------------------*/
+.barra-superior {
+  text-align: center;
+  margin-top: 20px;
+  height: 100px;
+  color: #fff;
+  background-color: #00510F;
+}
+.barra-inferior {
+  height: 50px;
+  background-color: #00420C;
+}
+/*---------------------- FIM: RODAPE ----------------------*/
+/*---------------------- INICIO: CAIXAS DE CONTEUDO DA PAGINA INICAL ----------------------*/
+.container-main {
+  width: 720px;
+  font-size: 12px;
+  margin: auto;
+}
+.container-main h3 {
+  width: 720px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #00510F;
+  font-weight: bold;
+  border-top: 3px solid #00510F;
+  padding: 10px;
+  background-color: #ecf1ec;
+}
