@@ -1,0 +1,41 @@
+main {
+  height: 1fr;
+}
+
+main .tema {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 100px auto 0 auto;
+  width: 200px;
+}
+
+main .redacao {
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+  margin: 20px auto 100px auto;
+  background-image: url(/img/ifgbi.jpg);
+  filter: grayscale(1);
+  filter: blur(2px);
+  animation-duration: 1s;
+  animation-name: blur-back;
+  display: flex;
+  transition: transform 0.5s;
+}
+main .redacao:hover {
+  filter: grayscale(0);
+  animation-duration: 0.5s;
+  animation-name: blur;
+  transform: scale(1.05);
+}
+
+@keyframes blur {
+  50% {
+    filter: blur(0px);
+  }
+}
+@keyframes blur-back {
+  50% {
+    filter: blur(2px);
+  }
+}
