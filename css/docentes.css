@@ -21,7 +21,7 @@
   --contrast-color: #e10800;
 }
 
-h1 {
+main h1 {
   text-align: center;
   margin: 10px 0 20px 0;
   font-family: "System Font Regular";
@@ -73,7 +73,7 @@ h1 {
   font-size: 21px;
 }
 
-p .curriculo {
+p #curriculo {
   display: block;
   text-align: center;
   font-size: 20px;
@@ -85,7 +85,7 @@ p .curriculo {
   color: white;
   font-family: "System Font Regular";
 }
-.curriculo:hover {
+#curriculo:hover {
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
@@ -93,12 +93,12 @@ p .curriculo {
   background-color: var(--second-color);
 }
 
-a {
+p a {
   font-size: 20px;
   font-family: "System Font Regular";
   text-align: left;
 }
-a:hover {
+p a:hover {
   color: var(--contrast-color);
   font-family: "System Font Regular";
   text-decoration: underline;
