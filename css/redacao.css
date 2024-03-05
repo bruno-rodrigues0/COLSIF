@@ -12,6 +12,7 @@ main .tema {
 main .redacao {
   width: 500px;
   height: 700px;
+  background-image: url(../img/ifgbi.jpg);
   margin: 20px auto 100px auto;
   filter: grayscale(1);
   filter: blur(2px);
