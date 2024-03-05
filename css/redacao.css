@@ -14,7 +14,7 @@ main .redacao {
   height: 700px;
   border-radius: 20px;
   margin: 20px auto 100px auto;
-  background-image: url(/img/ifgbi.jpg);
+  background-image: url(../img/ifgbi.jpg);
   filter: grayscale(1);
   filter: blur(2px);
   animation-duration: 1s;
