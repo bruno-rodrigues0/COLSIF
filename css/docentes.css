@@ -41,7 +41,7 @@ main h1 {
   width: 304px;
   margin: 10px 0 40px 0;
   padding: 15px;
-  background-color: var(--third-color);
+  background-color: rgb(228, 228, 228);
   border-radius: 15px;
 }
 .professores img {
@@ -77,7 +77,7 @@ p #curriculo {
   display: block;
   text-align: center;
   font-size: 20px;
-  background-color: var(--main-color);
+  background-color: var(--contrast-color);
   width: 100px;
   margin: 15px auto;
   border-radius: 10px;
