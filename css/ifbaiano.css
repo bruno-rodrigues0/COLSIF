@@ -5,7 +5,7 @@ section{
 .center-cont{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 45%;
     height:auto;
     margin: auto;
 }
