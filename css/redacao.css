@@ -12,9 +12,9 @@ main .tema {
 main .redacao {
   width: 500px;
   height: 700px;
-  border-radius: 20px;
   margin: 20px auto 100px auto;
   background-image: url(../img/ifgbi.jpg);
+
   filter: grayscale(1);
   filter: blur(2px);
   animation-duration: 1s;
@@ -22,6 +22,12 @@ main .redacao {
   display: flex;
   transition: transform 0.5s;
 }
+main img {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
 main .redacao:hover {
   filter: grayscale(0);
   animation-duration: 0.5s;
