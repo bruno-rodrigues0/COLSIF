@@ -1,0 +1,25 @@
+main .box {
+  width: 852px;
+  height: 1fr;
+  margin: 24px auto;
+}
+
+main h1 {
+  text-align: center;
+  margin: 32px auto 32px;
+  font-size: 2.5em;
+}
+main .texto p {
+  text-align: justify;
+  text-indent: 2em;
+
+  width: 800px;
+  margin: 15px auto;
+}
+main .img {
+  margin: 40px auto;
+  width: 700px;
+}
+main .img img {
+  width: 700px;
+}
