@@ -2,10 +2,16 @@ main {
   height: 1fr;
 }
 
+main .redacao_box {
+  width: 600px;
+  height: 1fr;
+  margin: auto;
+}
+
 main .tema {
   font-size: 2.5em;
   text-align: center;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 25px;
   width: 200px;
 }
 
@@ -13,11 +19,8 @@ main .redacao {
   width: 500px;
   height: 700px;
   margin: 20px auto 100px auto;
-  background-image: url(../img/ifgbi.jpg);
-
-  filter: grayscale(1);
-  filter: blur(2px);
-  animation-duration: 1s;
+  filter: blur(4px);
+  animation-duration: 0.5s;
   animation-name: blur-back;
   display: flex;
   transition: transform 0.5s;
@@ -29,19 +32,34 @@ main img {
 }
 
 main .redacao:hover {
-  filter: grayscale(0);
   animation-duration: 0.5s;
   animation-name: blur;
   transform: scale(1.07);
+  filter: blur(0);
+}
+main .redacao img {
+  width: 100%;
 }
 
 @keyframes blur {
+  0% {
+    filter: blur(4px);
+  }
   50% {
+    filter: blur(2px);
+  }
+  100% {
     filter: blur(0px);
   }
 }
 @keyframes blur-back {
+  0% {
+    filter: blur(0px);
+  }
   50% {
     filter: blur(2px);
+  }
+  100% {
+    filter: blur(4px);
   }
 }
