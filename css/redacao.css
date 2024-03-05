@@ -47,11 +47,13 @@ main .redacao img {
  .sobreposto{
   position: absolute;
   opacity: 1;
-  width: 520px;
+  width: 482px;
   height: 700px;
   background-color: rgba(255, 255, 255, 0.726);
   z-index: 1;
   margin-left: 40px;
+  padding: 28px;
+  text-align: justify;
 }
 
 .sobreposto:hover{
