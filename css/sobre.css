@@ -1,0 +1,18 @@
+main {
+  width: auto;
+  height: auto;
+}
+main .sobre {
+  margin: 10px auto;
+  width: 700px;
+  text-align: justify;
+}
+main h1 {
+  margin: 20px auto;
+  font-size: 2.5em;
+  text-align: center;
+}
+main .sobre p {
+  margin: 30px auto;
+  text-indent: 2em;
+}
