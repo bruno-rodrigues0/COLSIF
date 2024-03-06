@@ -5,12 +5,12 @@ function auto(){
     showSlides(slideIndex +=1);
 }
 
-var timer = setInterval( auto, 10000);
+var timer = setInterval( auto, 8000);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
   clearInterval(timer);
-  timer = setInterval(auto, 10000);
+  timer = setInterval(auto, 8000);
 
 }
 
