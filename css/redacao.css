@@ -1,3 +1,8 @@
+hr{
+  width: 800px;
+  margin: auto;
+}
+
 main {
   height: 1fr;
 }
@@ -20,10 +25,10 @@ main .redacao {
   height: 700px;
   margin: 20px auto 100px auto;
   filter: blur(4px);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-name: blur-back;
   display: flex;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   position: relative;
   z-index: 0;
 }
@@ -34,22 +39,23 @@ main img {
 }
 
 main .redacao:hover {
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-name: blur;
   transform: scale(1.07);
   filter: blur(0);
   z-index: 2;
 }
 main .redacao img {
-  width: 100%;
+  width: 500px;
 }
 
  .sobreposto{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
   position: absolute;
-  opacity: 1;
   width: 482px;
   height: 700px;
-  background-color: rgba(255, 255, 255, 0.726);
+  background-color: rgba(255, 255, 255, 0.836);
   z-index: 1;
   margin-left: 40px;
   padding: 28px;
@@ -59,7 +65,7 @@ main .redacao img {
 .sobreposto:hover{
   z-index: 0;
   opacity: 0;
-  transition: 0.2s;
+  transition: .4s;
 }
 
 @keyframes blur {
