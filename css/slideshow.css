@@ -1,3 +1,12 @@
+.center-cont{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 32px;
+}
+
 .slideshow-container {
     max-width: 850px;
     position: relative;
