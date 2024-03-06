@@ -7,10 +7,9 @@
 }
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 850px;
     position: relative;
     margin: auto;
-    padding: 30px 0 0 0;
   }
   
   /* Next & previous buttons */
@@ -46,6 +45,7 @@
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
+    background-image: linear-gradient();
     bottom: 8px;
     width: 100%;
     text-align: center;
