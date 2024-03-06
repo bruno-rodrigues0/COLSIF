@@ -201,6 +201,13 @@ section {
   }
 }
 
+.center-cont{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin: 32px auto;
+}
 
 .conteudo-main{
   width: 850px;
