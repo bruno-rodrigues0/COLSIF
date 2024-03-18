@@ -48,7 +48,7 @@ main h1 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 2px solid var(--second-color);
+  border: 2px solid rgb(0, 0, 0, 0.5);
 }
 .nomes {
   text-align: left;
@@ -77,20 +77,22 @@ p #curriculo {
   display: block;
   text-align: center;
   font-size: 20px;
-  background-color: var(--contrast-color);
+  background-color: rgb(225, 8, 0, 0.9);
   width: 100px;
   margin: 15px auto;
   border-radius: 10px;
   padding: 5px;
   color: white;
-  font-family: "System Font Regular";
+  font-family: "System Font Regular"; 
+  transition: transform .3s;
 }
 #curriculo:hover {
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
-  background-color: var(--second-color);
+  background-color: var(--contrast-color);
+  transform: scale(1.2); 
 }
 
 p a {
@@ -102,4 +104,10 @@ p a:hover {
   color: var(--contrast-color);
   font-family: "System Font Regular";
   text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .prof_box {
+    width: 400px;
+  }
 }
