@@ -1,4 +1,4 @@
-hr{
+hr {
   width: 800px;
   margin: auto;
 }
@@ -49,8 +49,8 @@ main .redacao img {
   width: 500px;
 }
 
- .sobreposto{
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+.sobreposto {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 32px;
   position: absolute;
   width: 482px;
@@ -62,10 +62,10 @@ main .redacao img {
   text-align: justify;
 }
 
-.sobreposto:hover{
+.sobreposto:hover {
   z-index: 0;
   opacity: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 @keyframes blur {
@@ -88,5 +88,36 @@ main .redacao img {
   }
   100% {
     filter: blur(4px);
+  }
+}
+@media (max-width: 992px) {
+  main .redacao_box {
+    width: 400px;
+    height: 1fr;
+    margin: auto;
+  }
+  hr {
+    width: 600px;
+    margin: auto;
+  }
+  main .tema {
+    font-size: 2em;
+    text-align: center;
+    margin: 50px auto 25px;
+    width: 300px;
+  }
+  main .redacao {
+    width: 300px;
+    height: 400px;
+  }
+  main .redacao img {
+    width: 100%;
+    height: 110%;
+  }
+  .sobreposto {
+    font-size: 1em;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
   }
 }
