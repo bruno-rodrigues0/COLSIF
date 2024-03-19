@@ -5,7 +5,7 @@ function auto(){
     showSlides(slideIndex +=1);
 }
 
-// var timer = setInterval( auto, 8000);
+var timer = setInterval( auto, 8000);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
