@@ -16,7 +16,14 @@
 html{
   overflow: scroll;
   overflow-x: hidden;
+}
 
+::-webkit-scrollbar-thumb{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  visibility: hidden;
 }
 
 .container {
@@ -283,7 +290,8 @@ footer p {
   }
 
   .melhores-top img{
-    max-width: 330px;
+    max-width: 100%;
+    min-width: 330px;
   }
 
   .conteudo-main h2{
