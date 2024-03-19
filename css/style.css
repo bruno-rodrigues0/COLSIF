@@ -273,15 +273,14 @@ footer {
 }
 
 footer p {
-  width: 500px;
+  max-width: 500px;
   margin: auto;
   padding: 5px 0;
 }
 
 .barra-inferior {
-  height: 50px;
+  height: 40px;
   background-color: #00420C;
-
 }
 
 
