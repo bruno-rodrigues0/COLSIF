@@ -278,4 +278,15 @@ footer p {
   .melhores-top{
     flex-flow: column nowrap;
   }
+
+  .melhores-top img{
+    /* padding: 16px 0; */
+    min-width: 300px;
+  }
+
+  .conteudo-main h2{
+    font-size: 28px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
 }
