@@ -328,4 +328,8 @@ footer p {
   .logo_if img {
     max-width: 38%;
   }
+
+  .span-hb {
+    font-size: .7rem;
+  }
 }
