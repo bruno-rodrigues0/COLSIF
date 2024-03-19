@@ -34,10 +34,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-let imgs = [...document.querySelectorAll(".melhores-top img")]
-let body = document.body
+// remove o zoom quando o width eh menor q 992
 
-body.style.width <= 992 
-? imgs.map(item => item.classList.remove("zoom")) 
-: imgs.map(i => i)
-  
+//guarda as imagens numa variavel
+let imgs = [...document.querySelectorAll(".melhores-top img")]
+
+//se (viewport width >= 992px) { remover classe zoom dos imgs[item: 0, item: 1] }
+if(document.documentElement.clientWidth <= 992){
+  imgs.map(item => item.classList.remove("zoom")) 
+} 
+
