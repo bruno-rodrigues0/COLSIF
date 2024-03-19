@@ -283,11 +283,7 @@ footer p {
   }
 
   .melhores-top img{
-    max-width: 350px;
-  }
-
-  .melhores-top img:hover{
-    max-width: 350px;
+    max-width: 330px;
   }
 
   .conteudo-main h2{
