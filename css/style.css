@@ -20,7 +20,14 @@
 html{
   overflow: scroll;
   overflow-x: hidden;
+}
 
+::-webkit-scrollbar-thumb{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  visibility: hidden;
 }
 
 .container {
@@ -213,13 +220,14 @@ section {
 .center-cont{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  max-width: 850px;
+  padding: 1rem;
   height: auto;
   margin: 32px auto;
 }
 
 .conteudo-main{
-  width: 850px;
+  max-width: 850px;
   margin: auto;
   gap: 12px;
 }
@@ -273,5 +281,32 @@ footer p {
 .barra-inferior {
   height: 50px;
   background-color: #00420C;
+
+}
+
+
+@media (max-width: 992px){
+  .melhores-botton{
+    display: none;
+  }
+
+  header{
+    max-width: 100%;
+  }
+
+  .melhores-top{
+    flex-flow: column nowrap;
+  }
+
+  .melhores-top img{
+    max-width: 100%;
+    min-width: 330px;
+  }
+
+  .conteudo-main h2{
+    font-size: 28px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
 
 }
