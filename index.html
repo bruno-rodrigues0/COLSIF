@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Definição do conjunto de caracteres como UTF-8 -->
     <meta charset="UTF-8" />
-    <!-- Definição da viewport para responsividade em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Título da página -->
     <title>COLSIF 2024 | Inicio</title>
-    <!-- Links para folhas de estilo CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slideshow.css" />
   </head>
 
   <body>
-    <!-- Contêiner principal -->
+
+    <!-- container da pagina  -->
     <div class="container">
-      <!-- Cabeçalho -->
+
+      <!-- header  -->
       <header>
-        <!-- Divisão principal do cabeçalho -->
+
+        <!-- parte de cima do header -->
         <div class="header-main">
-          <!-- Logotipo do evento -->
           <div class="logo_evento">
             <h1><a id="color" href="/">COLSIF</a></h1>
           </div>
-          <!-- Logotipo do Instituto Federal -->
           <div class="logo_if">
             <a href="https://ifbaiano.edu.br/portal/">
               <img
@@ -32,10 +29,14 @@
               />
             </a>
           </div>
+
+          <!-- parte de baixo do header  -->
         </div>
-        <!-- Navegação -->
+
+        <!-- nav  -->
         <nav class="header-botton">
-          <!-- Links para diferentes seções da página -->
+
+          <!-- botao inicio  -->
           <div class="inter-hb">
             <a href="#" class="link-hb">
               <button class="button-hb on-page-menu-color">
@@ -43,6 +44,8 @@
               </button>
             </a>
           </div>
+
+          <!-- botao sobre  -->
           <div class="inter-hb">
             <a href="sobre.html" class="link-hb">
               <button class="button-hb">
@@ -50,19 +53,22 @@
               </button>
             </a>
           </div>
+
+          <!-- botao dissertações  -->
           <div class="inter-hb">
-            <!-- Botão com menu suspenso -->
             <button class="button-hb dropdown">
               <span class="span-hb">Dissertações</span>
-              <!-- Lista suspensa com links -->
+
+              <!-- dropdown  -->
               <ul class="dropdown_menu dropdown_menu-1">
+
+                <!-- itens do dropdown  -->
                 <li class="dropdown_item-1 dd-input">
                   <a href="redacoes/2AII/2AII.html">2AII</a>
                 </li>
                 <!-- <li class="dropdown_item-2 dd-input">
                   <a href="redacoes/2BII/#">2BII</a>
                 </li> -->
-                <!-- Links para outras páginas de dissertações -->
                 <li class="dropdown_item-3 dd-input">
                   <a href="sobre.html">2AA</a>
                 </li>
@@ -75,6 +81,8 @@
               </ul>
             </button>
           </div>
+
+          <!-- botao if baiano  -->
           <div class="inter-hb">
             <a href="ifbaiano.html" class="link-hb">
               <button class="button-hb">
@@ -82,6 +90,8 @@
               </button>
             </a>
           </div>
+
+          <!-- botao docentes  -->
           <div class="inter-hb">
             <a href="docentes.html" class="link-hb">
               <button class="button-hb">
@@ -92,13 +102,13 @@
         </nav>
       </header>
 
-      <!-- Seção principal -->
       <section>
-        <!-- Container centralizado -->
+
+        <!-- centraliza o conteudo  -->
         <div class="center-cont">
-          <!-- Slideshow -->
+
+          <!-- carrossel de imagens  -->
           <div class="slideshow-container">
-            <!-- Slides -->
             <div class="mySlides fade">
               <img
                 src="img/img-dudu-350.jpg"
@@ -118,26 +128,24 @@
               <div class="text">Caption Three</div>
             </div>
 
-            <!-- Botões de navegação -->
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
           </div>
 
-          <!-- Pontos de navegação -->
           <div style="text-align: center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
-
-          <!-- Separador -->
+            
+          <!-- linha de separação  -->
           <hr class="separador" />
 
-          <!-- Conteúdo principal -->
+          <!-- conteudo da pagina  -->
           <div class="conteudo-main">
-            <!-- Título -->
+
+            <!-- melhores redações  -->
             <h2>Melhores redações</h2>
-            <!-- Imagens das melhores redações -->
             <div class="melhores-top">
               <img
                 src="img/alienacao-digital.png"
@@ -152,9 +160,7 @@
                 class="zoom"
               />
             </div>
-            <!-- Separador -->
             <hr class="separador" />
-            <!-- Outras imagens das melhores redações -->
             <div class="melhores-botton">
               <img
                 src="img/alienacao-digital.png"
@@ -179,10 +185,9 @@
         </div>
       </section>
     </div>
-
-    <!-- Rodapé -->
+ 
+    <!-- footer  -->
     <footer>
-      <!-- Informações de contato e endereço -->
       <p>
         Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus
         Guanambi Zona Rural - Distrito de Ceraíma, Bahia - CEP: 46430-000
@@ -190,11 +195,9 @@
       <p>Tel.: (77) 3493-2100</p>
       <p>Diretor: Carlito José de Barros Filho</p>
       <p>E-mail: gabinete@guanambi.ifbaiano.edu.br</p>
-      <!-- Barra inferior -->
       <div class="barra-inferior"></div>
     </footer>
 
-    <!-- Script para funcionalidades JavaScript -->
     <script src="js/script.js"></script>
-  </body>
+  </body>
 </html>
