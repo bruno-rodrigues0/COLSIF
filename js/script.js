@@ -33,3 +33,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+let imgs = [...document.querySelectorAll(".melhores-top img")]
+let body = document.body
+
+body.style.width <= 992 
+? imgs.map(item => item.classList.remove("zoom")) 
+: imgs.map(i => i)
+  
