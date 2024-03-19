@@ -204,13 +204,14 @@ section {
 .center-cont{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  max-width: 850px;
+  padding: 1rem;
   height: auto;
   margin: 32px auto;
 }
 
 .conteudo-main{
-  width: 850px;
+  max-width: 850px;
   margin: auto;
   gap: 12px;
 }
@@ -252,7 +253,8 @@ footer {
   background-color: var(--main-color);
   color: #fff;
   text-align: center;
-  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 footer p {
@@ -265,4 +267,15 @@ footer p {
   height: 50px;
   background-color: #00420C;
 
+}
+
+
+@media (max-width: 992px){
+  .melhores-botton{
+    display: none;
+  }
+
+  .melhores-top{
+    flex-flow: column nowrap;
+  }
 }
