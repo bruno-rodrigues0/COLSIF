@@ -275,13 +275,20 @@ footer p {
     display: none;
   }
 
+  header{
+    max-width: 100%;
+  }
+
   .melhores-top{
     flex-flow: column nowrap;
   }
 
   .melhores-top img{
-    /* padding: 16px 0; */
-    min-width: 300px;
+    max-width: 350px;
+  }
+
+  .melhores-top img:hover{
+    max-width: 350px;
   }
 
   .conteudo-main h2{
@@ -289,4 +296,6 @@ footer p {
     padding-bottom: 8px;
     text-align: center;
   }
+
+
 }
