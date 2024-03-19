@@ -78,7 +78,7 @@ header {
 }
 
 .logo_if img {
-  width: 15%;
+  max-width: 15%;
 }
 
 /* nav do header  */
@@ -293,6 +293,15 @@ footer p {
   header{
     max-width: 100%;
   }
+  
+  header h1 {
+    max-width: 100%;
+  }
+  
+  #color{
+    padding-inline: .7rem;
+    font-size: 40px;
+  }
 
   .melhores-top{
     flex-flow: column nowrap;
@@ -307,6 +316,20 @@ footer p {
     font-size: 28px;
     padding-bottom: 8px;
     text-align: center;
+  } 
+
+  .logo_if img {
+    max-width: 24%;
   }
 
+}
+
+@media (max-width: 630px){
+  .logo_if img {
+    max-width: 38%;
+  }
+
+  .span-hb {
+    font-size: .7rem;
+  }
 }
