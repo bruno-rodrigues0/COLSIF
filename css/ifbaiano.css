@@ -1,44 +1,55 @@
+/* Define a altura automática para a seção */
 section {
   height: auto;
 }
 
+/* Define um container centralizado */
 .center-cont {
   display: flex;
   flex-direction: column;
-  max-width: 850px;
+  max-width: 850px; /* largura máxima do container */
   height: auto;
-  margin: auto;
+  margin: auto; /* centraliza o container na página */
 }
 
+/* Estilo para o título */
 .titulo {
   width: 100%;
-  padding: 30px 0;
+  padding: 30px 0; /* espaçamento interno superior e inferior */
 }
 
+/* Estilo para o texto IFBAIANO */
 .ifbaiano {
-  font-size: 3em;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  font-size: 3em; /* tamanho da fonte */
+  font-family: Arial, Helvetica, sans-serif; /* família da fonte */
+  text-align: center; /* alinhamento centralizado */
 }
 
+/* Estilo para o parágrafo introdutório */
 .para-if {
-  padding: 30px 0 0px 0;
-  text-align: justify;
-  width: 95%;
+  padding: 30px 0 0px 0; /* espaçamento interno superior */
+  text-align: justify; /* texto justificado */
+  width: 95%; /* largura do parágrafo */
 }
 
+/* Container para a imagem */
 .cont {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* alinha os itens ao centro horizontalmente */
 }
+
+/* Estilo para a imagem dentro do container */
 .cont img {
-  padding: 40px 0;
-  width: 700px;
+  padding: 40px 0; /* espaçamento interno superior e inferior */
+  width: 700px; /* largura da imagem */
 }
+
+/* Media query para telas de até 992px */
 @media (max-width: 992px) {
+  /* Ajusta o tamanho da imagem para preencher a largura do container */
   .cont img {
-    padding: 40px 0;
-    width: 100%;
+    padding: 40px 0; /* espaçamento interno superior e inferior */
+    width: 100%; /* largura da imagem preenchendo o container */
   }
 }
