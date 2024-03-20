@@ -1,14 +1,16 @@
+/* Estilo da caixa principal */
 main .box {
   max-width: 852px;
   height: 1fr;
   margin: 24px auto;
 }
-
+/* Estilo dos títulos */
 main h1 {
   text-align: center;
   margin: 32px auto 32px;
   font-size: 3em;
 }
+/* Estilo dos parágrafos */
 main .texto p {
   text-align: justify;
   text-indent: 2.5em;
@@ -17,27 +19,29 @@ main .texto p {
   margin: 15px auto;
   padding-inline: 1rem;
 }
+/* Estilo das imagens */
 main .img {
   margin: 40px auto;
 }
+/* Estilo das imagens dentro do contêiner */
 main .img img {
   width: calc(100% - 2rem);
   padding-inline: 1rem;
   margin: auto;
 }
-
-hr{
+/* Estilo da linha horizontal */
+hr {
   max-width: 94%;
   margin: auto;
 }
-
+/* Estilos para telas menores */
 @media (max-width: 992px) {
-
+  /* Redefinição do tamanho do título */
   main h1 {
     font-size: 2.2em;
   }
+  /* Redefinição do tamanho do parágrafo */
   main .texto p {
     font-size: 1em;
   }
-
 }
