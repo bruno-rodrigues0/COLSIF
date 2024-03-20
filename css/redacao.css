@@ -1,25 +1,26 @@
+/* Estilo da linha horizontal */
 hr {
   width: 800px;
   margin: auto;
 }
-
+/* Estilo do elemento principal */
 main {
   height: 1fr;
 }
-
+/* Estilo da caixa de redação */
 main .redacao_box {
   width: 600px;
   height: 1fr;
   margin: auto;
 }
-
+/* Estilo do tema */
 main .tema {
   font-size: 2.5em;
   text-align: center;
   margin: 50px auto 25px;
   width: 600px;
 }
-
+/* Estilo da redação */
 main .redacao {
   width: 500px;
   height: 700px;
@@ -32,12 +33,13 @@ main .redacao {
   position: relative;
   z-index: 0;
 }
+/* Estilo das imagens dentro do elemento principal */
 main img {
   width: inherit;
   height: inherit;
   border-radius: 20px;
 }
-
+/* Estilo da redação ao passar o mouse */
 main .redacao:hover {
   animation-duration: 0.3s;
   animation-name: blur;
@@ -45,10 +47,11 @@ main .redacao:hover {
   filter: blur(0);
   z-index: 2;
 }
+/* Estilo das imagens dentro do elemento de redação */
 main .redacao img {
   width: 500px;
 }
-
+/* Estilo do texto sobreposto */
 .sobreposto {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -61,13 +64,13 @@ main .redacao img {
   padding: 28px;
   text-align: justify;
 }
-
+/* Estilo do texto sobreposto ao passar o mouse */
 .sobreposto:hover {
   z-index: 0;
   opacity: 0;
   transition: 0.4s;
 }
-
+/* Animação de desfoque */
 @keyframes blur {
   0% {
     filter: blur(4px);
@@ -79,6 +82,7 @@ main .redacao img {
     filter: blur(0px);
   }
 }
+/* Animação de desfoque de volta */
 @keyframes blur-back {
   0% {
     filter: blur(0px);
@@ -90,7 +94,9 @@ main .redacao img {
     filter: blur(4px);
   }
 }
+/* Estilos para telas menores */
 @media (max-width: 992px) {
+  /* Redefinição da largura da caixa de redação */
   main .redacao_box {
     width: 400px;
     height: 1fr;
@@ -100,20 +106,24 @@ main .redacao img {
     width: 600px;
     margin: auto;
   }
+  /* Redefinição do tamanho do tema */
   main .tema {
     font-size: 2em;
     text-align: center;
     margin: 50px auto 25px;
     width: 300px;
   }
+  /* Redefinição do tamanho da redação */
   main .redacao {
     width: 300px;
     height: 400px;
   }
+  /* Redefinição do tamanho das imagens dentro do elemento de redação */
   main .redacao img {
     width: 100%;
     height: 110%;
   }
+  /* Redefinição do tamanho do texto sobreposto */
   .sobreposto {
     font-size: 1em;
     width: 300px;
