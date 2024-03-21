@@ -1,18 +1,7 @@
 /* Importando e definindo a fonte padrão */
-@import url(https://db.onlinewebfonts.com/c/839140740c11b7220b35c8497585ab26?family=System+Font+Regular);
 @font-face {
   font-family: "System Font Regular";
-  src: url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.eot");
-  src: url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/839140740c11b7220b35c8497585ab26.svg#System Font Regular")
-      format("svg");
+  src: url("..//fonts/System Font Regular.ttf") format("truetype");
 }
 /* Definição de variáveis */
 :root {
