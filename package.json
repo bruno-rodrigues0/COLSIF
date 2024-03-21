@@ -1,0 +1,18 @@
+{
+  "name": "colsif",
+  "version": "1.0.0",
+  "description": "Site de divulgação do evento COLSIF",
+  "main": "index.html",
+  "scripts": {
+    "test": "live-server"
+  },
+  "keywords": [
+    "COLSIF",
+    "Coloquio",
+    "Instituto",
+    "Federal",
+    "Guanambi"
+  ],
+  "author": "Bruno Rodrigues, Gabriel Montalvão",
+  "license": "MIT"
+}
