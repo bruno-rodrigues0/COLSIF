@@ -38,5 +38,5 @@ O site "COLSIF" é uma plataforma dedicada à exposição das redações produzi
 
 # Licença
 
-RedaIF é <a href="LICENSE">licenciado pelo MIT</a>.
+COLSIF é <a href="LICENSE">licenciado pelo MIT</a>.
 
