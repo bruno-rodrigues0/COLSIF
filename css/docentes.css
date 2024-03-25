@@ -19,18 +19,19 @@ main h1 {
 }
 /* Estilo dos contêineres dos professores */
 .prof_box {
-  width: 1200px;
+  max-width: 1200;
+  min-width: 280px;
   height: 1fr;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 /* Estilo de cada professor */
 .professores {
   height: 525px;
   width: 304px;
-  margin: 10px 0 40px 0;
+  margin: 10px 6px 40px 6px;
   padding: 15px;
   background-color: rgb(228, 228, 228);
   border-radius: 15px;
