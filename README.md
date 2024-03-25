@@ -15,7 +15,7 @@
 - [Licença](#Licença)
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 # 📖Descrição do Projeto
@@ -38,5 +38,5 @@ O site "COLSIF" é uma plataforma dedicada à exposição das redações produzi
 
 # Licença
 
-RedaIF é <a href="LICENSE">licenciado pelo MIT</a>.
+COLSIF é <a href="LICENSE">licenciado pelo MIT</a>.
 
