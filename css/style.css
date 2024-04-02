@@ -262,6 +262,11 @@ section {
   transition: 0.5s;
 }
 
+.link-galeria{
+  text-decoration: underline;
+  color: navy !important;
+}
+
 footer {
   height: 1fr;
   background-color: var(--main-color);
