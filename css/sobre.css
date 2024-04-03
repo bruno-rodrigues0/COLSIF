@@ -89,32 +89,27 @@ hr {
 /* Estilo para o link da contribuição */
 p #github {
   display: block;
-  text-align: center;
-  font-size: 20px;
   background-color: #696969;
-  color: white;
   width: 100px;
   margin: 15px auto;
   border-radius: 10px;
-  color: white;
-  font-family: "System Font Regular";
-  transition: transform 0.3s;
   width: 80px;
   height: 80px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 /* Efeito de hover para o link da contribuição */
 #github:hover {
-  color: white;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   background-color: black;
   transform: scale(1.2);
   padding: 0;
+  transition: 0.4s;
 }
 a svg:hover path {
   fill: white;
+  transition: 1s;
 }
 a svg {
   width: 80px;
