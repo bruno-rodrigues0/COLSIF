@@ -223,6 +223,78 @@ section {
   margin: 32px auto;
 }
 
+.galery {
+  text-align: center;
+  margin: 25px 0;
+}
+.galery span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.galery .link-galeria svg {
+  background-color: black;
+  border-radius: 10px;
+  transition: transform 0.5s;
+  margin-top: 10px;
+}
+.galery .link-galeria svg path {
+  opacity: 1;
+  fill: #ffffff;
+  fill-opacity: 1;
+  stroke: none;
+  stroke-width: 0.99999988;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 4.0999999;
+  stroke-dasharray: none;
+  transition: 0.5s;
+}
+.galery .link-galeria svg #path5174,
+#path5178,
+#path5182,
+#path5186 {
+  opacity: 1;
+  fill: #696969;
+  transition: 0.5s;
+}
+
+.galery .link-galeria svg:hover #path5172 {
+  fill: #dd4f43;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5174 {
+  fill: #b01d5e;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5176 {
+  fill: #4687f4;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5178 {
+  fill: #396cd7;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5180 {
+  fill: #92e03f;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5182 {
+  fill: #1ca261;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5184 {
+  fill: #ffc61b;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover #path5186 {
+  fill: #f69200;
+  transition: 0.5s;
+}
+.galery .link-galeria svg:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
 .conteudo-main {
   max-width: 850px;
   margin: auto;
@@ -262,7 +334,7 @@ section {
   transition: 0.5s;
 }
 
-.link-galeria{
+.link-galeria {
   text-decoration: underline;
   color: navy !important;
 }
